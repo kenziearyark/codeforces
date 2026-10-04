@@ -1,17 +1,16 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
  
 int main() {
-    ios_base::sync_with_stdio(false);
-    string s, f;
-    cin >> s;
-    f = s;
-    if (isupper(s.front())) {
-        cout << s;
+    string p, q;
+    cin >> p;
+ 
+    if (p.front() <= 90 && p.front() >= 65) {
+        cout << p;
         return 0;
     } else {
-        s = toupper(s.front());
-        cout << s << f.substr(1);
+        cout << (char)(p.front() - 32) << p.substr(1);
         return 0;
     }
 }
