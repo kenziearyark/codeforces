@@ -5,16 +5,3 @@
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 A collection of my solutions for **Codeforces** problems.
-
----
-
-## Repository Structure
-
-```text
-.
-├── 800-1000/           # Beginner
-├── 1100-1300/          # Intermediate
-├── 1400-1600/          # Advanced
-├── 1700+/              # Expert
-├── Templates/          
-└── README.md
